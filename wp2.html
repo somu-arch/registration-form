@@ -1,0 +1,107 @@
+
+<!DOCTYPE>
+<html>
+<head>
+<title> Resistration form </title>
+<style type="text/css">
+div{
+background-color:green;
+color:pink;
+\\text-decoration:underline;
+}
+th
+{
+color:white;
+background-color:black;
+font-style:italic;
+font-size:22px;
+}
+body{
+background-color:grey;
+\\background-image:url('somu.jpg');
+background-repeat:repeat-x;
+}
+</style>
+<div align="center">REGISTRATION FORM </div>
+</head>
+<body>
+<h3 align="center" style="color:red;background-color:blue;text-decoration:underline;margin:0px;">Student Registration Form</h3>
+<hr/>
+<form action="somefile.php" method="post">
+<table cellspacing="2px" bgcolor="skyblue" align= "center" style="color:white;letter-spacing:3;">
+<th>Personal Details</th>
+<tr>
+<td>Name</td>
+<td><input type="text" name="student's name"/></td>
+</tr>
+<tr >
+<td colspan="2">Date of Birth</td>
+<td>
+<select>
+<option>day</option>
+<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option>
+<option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option>
+<option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option>
+<option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+</select>
+</td>
+<td>
+<select>
+<option>Month</option><option>Jan</option><option>Feb</option><option>Mar</option><option>Apr</option><option>May</option><option>June</option>
+<option>July</option><option>Aug</option><option>Sep</option><option>Oct</option><option>Nov</option><option>Dec</option>
+</select>
+</td>
+<td>
+<select>
+<option>year</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option>
+<option>2005</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Age</td>
+<td><input type="text" name="age"/></td>
+</tr>
+<tr>
+<td colspan="2">Gender</td>
+<td><input type="radio" name="gender"/>M</td>
+<td><input type="radio" name="gender"/>F</td>
+</tr>
+<tr>
+<td>Aadhar no.</td>
+<td><input type="text" name="aadhar"/></td>
+</tr>
+<th>Contact Details</th>
+<tr>
+<td>Address</td>
+<td><input type="text" name="address"/></td>
+</tr>
+<tr>
+<td>Mobile no.</td>
+<td><input type="text" name="mobile"/></td>
+</tr>
+<tr>
+<td>Email Id</td>
+<td><input type="text" name="email"/></td>
+</tr>
+<th>Course Information</th>
+<tr>
+<td colspan="2">Subject*</td>
+<td><input type="checkbox" name="Mathematics"/>Mathematics</td>
+<td><input type="checkbox" name="Physics"/>Physics</td>
+<td><input type="checkbox" name="Chemistry"/>Chemistry</td>
+<td><input type="checkbox" name="Biology"/>Biology</td>
+<td><input type="checkbox" name="English"/>English</td>
+<td><input type="checkbox" name="Hindi"/>Hindi</td>
+<td><input type="checkbox" name="Music"/>Music</td>
+</tr>
+<tr>
+<td><input type="submit" value ="Register"/></td>
+<td><input type="reset"/></td>
+</tr>
+</table>
+<input type="submit" value="next"/>
+</form>
+<p>*choose any five subject</p>
+</body>
+</html>
